@@ -37,23 +37,4 @@ print(type(()))
 print(type([]))
 print(type({}))
 
-将字符串转换为整型
-a = int("123")
-print(type(a))
-'''
-# a = float(input("第一个数："))
-# b = float(input("第二个数："))
-# print("两数之和：",a+b)
-
-# 字符串长度
-# a ='asadasdsfdfsdggdfgfd  '
-# b ='哈哈'
-# print(len(a))
-# print(len(b))
-
-# a = input("请输入一个数：")
-# b = input("请输入另一个数：")
-# print("两数相加之和：",a+b)
-# print(len(a+b))
-a='adsadasfasd'
-print(type(a))
+...
