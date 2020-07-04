@@ -27,8 +27,7 @@ print(a)
 
 a = input("请输入：")
 print("input获取的内容：",a)
-'''
-'''
+
 print(type("aaa"))
 print(type(111))
 print(type(1.11))
@@ -37,4 +36,60 @@ print(type(()))
 print(type([]))
 print(type({}))
 
-...
+将字符串转换为整型
+a = int("123")
+print(type(a))
+'''
+# a = float(input("第一个数："))
+# b = float(input("第二个数："))
+# print("两数之和：",a+b)
+
+# 字符串长度
+# a ='asadasdsfdfsdggdfgfd  '
+# b ='哈哈'
+# print(len(a))
+# print(len(b))
+
+# a = input("请输入一个数：")
+# b = input("请输入另一个数：")
+# print("两数相加之和：",a+b)
+# print(len(a+b))
+
+# a='adsadasfasd'
+# print(type(a))
+
+# 元组  下标：从0开始编号
+# a = (1,3,42,21,"梅浩","梅浩","梅浩","梅浩程玲玲","hh")
+# print(a[0:4])   #左闭右开
+# print(a[4:9])
+
+# print(a[5])
+# print(a.count("梅浩"))
+# print(a.index("hh"))
+
+
+# 二维元组
+# a = (1,3,42,21,"梅浩","梅浩","梅浩","梅浩程玲玲","hh")
+# b = (a,"哈哈","xixixi,jjj")
+# print(b[0][3])
+
+
+a = [11,13,34,"hailou","程玲玲","梅浩"]
+# print(a.index(13))
+# print(a.index("梅浩"))
+# print(a.count("hailou"))
+# a.append("append在末尾")
+# print(a)
+# a.insert(4,17)
+# print(a)
+# a.pop(1)
+# print(a)
+# b=a.pop(4)
+# c=a.pop(2)
+# print(b+c)
+b = ["aa",12131,"yyy"]
+# a.extend(b)
+print(a+b)  #这种方法也可实现
+a.remove("hailou")
+print(a)
+
