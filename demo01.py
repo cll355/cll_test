@@ -74,7 +74,7 @@ print(type(a))
 # print(b[0][3])
 
 
-a = [11,13,34,"hailou","程玲玲","梅浩"]
+# a = [11,13,34,"hailou","程玲玲","梅浩"]
 # print(a.index(13))
 # print(a.index("梅浩"))
 # print(a.count("hailou"))
@@ -87,9 +87,43 @@ a = [11,13,34,"hailou","程玲玲","梅浩"]
 # b=a.pop(4)
 # c=a.pop(2)
 # print(b+c)
-b = ["aa",12131,"yyy"]
+# b = ["aa",12131,"yyy"]
 # a.extend(b)
-print(a+b)  #这种方法也可实现
-a.remove("hailou")
-print(a)
+# print(a+b)  #这种方法也可实现
+# a.remove("hailou")
+# print(a)
+# a = {"name": "cll","age":18,"height":"153cm"}
+#print(a)
+# 取值
+#print(a["name"])
+#print(a["age"])
+#修改
+#a["name"] = "lisi"
+#print(a)
+#增加
+#a["zengjia"] = "hailou"
+#print(a)
+# b=a.get("name")
+# print(b)
+# b=a.update(name="aaa")
+# print(a)
+# b = a.pop("name")
+# print(a)
 
+# 数组与字典的删除
+# del a["name"]
+# print(a)
+# del a[0]
+# print(a)
+
+name = input("请输入姓名：")
+age = input("请输入年龄：")
+sex =input("请输入性别:")
+a={}
+# a["name"] = name
+# a["age"]=age
+# a["sex"]=sex
+a.update(name=name)
+a.update(age=age)
+a.update(sex=sex)
+print(a)
